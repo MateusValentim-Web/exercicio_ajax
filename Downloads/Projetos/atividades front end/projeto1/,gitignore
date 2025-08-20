@@ -1,0 +1,8 @@
+# Ignore arquivos do Windows
+Thumbs.db
+Desktop.ini
+*.log
+
+# Ignore pastas do Node ou outros sistemas que não são do projeto
+node_modules/
+.vscode/

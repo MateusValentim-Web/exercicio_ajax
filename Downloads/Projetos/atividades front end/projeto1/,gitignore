@@ -1,8 +1,17 @@
-# Ignore arquivos do Windows
-Thumbs.db
-Desktop.ini
+# Ignorar arquivos do sistema e pastas fora do projeto
 *.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
 
-# Ignore pastas do Node ou outros sistemas que não são do projeto
-node_modules/
-.vscode/
+# Ignorar pastas específicas do Windows/OneDrive
+Ambiente de Impressão/
+Ambiente de Rede/
+Configurações Locais/
+Cookies/
+Dados de Aplicativos/
+Menu Iniciar/
+Modelos/
+Recent/
+SendTo/
